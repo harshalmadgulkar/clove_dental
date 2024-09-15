@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+/* Navbar CSS */
+.container {
+  display: flex;
+  background-color: #fff1e6;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  height: 62px;
+}
+.logo {
+  font-size: 3em;
+}
+.navcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin: 0 10px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 0 20px;
+  padding: 0;
+}
+.nav a {
+  text-decoration: none;
+  color: #333;
+}
+.divide {
+  background-color: black;
+  margin: 0 10px;
+  width: 1px;
+}
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f48c06;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+.cta i {
+  margin-right: 10px;
+}
+.help {
+  color: #4d2c19;
+  margin: 20px;
+  padding: 10px 20px;
+  border: 2px solid #fbbe9c;
+  border-radius: 50px;
+}
+.help i {
+  margin-right: 10px;
+}
+
+/* Banner */
+.banner {
+    width: 100vw;
+}
+
+/* city search box */
+.city_search {
+}
+.numclinics {
+  color: #de6f0d;
+}
